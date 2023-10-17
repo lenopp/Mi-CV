@@ -235,3 +235,17 @@ ul{
 .skills-3 {
     width: 33.33%;
 }
+
+/**/
+@media only screen and (max-device-width:912px) {
+    .image-profile {
+        width: 150px;
+        background-color: #3C3C44;
+        padding: 15px 10px;
+    } 
+    .left {
+        width: 150px;
+        background-color: #3C3C44;
+        padding: 15px 10px;
+    } 
+}
