@@ -1,0 +1,237 @@
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FED001;
+}
+
+h2 {
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: x-large;
+}
+
+.header-container {
+    background-color: white;
+    display: flex;
+    /**/
+}
+
+.header-container img {
+
+    height: 100px;
+    padding: 8px 7px;
+    border: solid 1px white;
+}
+
+.container-name {
+    width: 80%;
+    font-size: large;
+    font-weight: bold;
+    color: #3C3C44;
+
+}
+
+.container-name h1 {
+    padding-left: 30px;
+}
+
+.container-name h2 {
+    padding-left: 30px;
+}
+
+.image-profile {
+    width: 18%;
+    text-align: center;
+    background-color: #3C3C44;
+    padding: 15px 10px;
+}
+
+.name span {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.data {
+    background-color: #E7A960;
+    border: solid 1px #E7A960;
+}
+
+#personal-data {
+    /*font-size: 14px;*/
+    /*display: -moz-inline-box;*/
+    background-color: #E7A960;
+    padding: 5px;
+    text-align: center;
+}
+
+#personal-data img {
+    display: inline-block;
+    vertical-align: top;
+    width: 20px;
+}
+
+main {
+    display: flex;
+}
+
+.left {
+    width: 18%;
+    background-color: #3C3C44;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+}
+
+.education {
+    border: solid 1px white;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 15px;
+}
+
+
+.left p {
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: small;
+    padding-top: 1px;
+}
+
+.left li {
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: small;
+    padding-top: 1px;
+}
+
+.aptitude {
+    border: solid 1px white;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 15px;
+}
+
+.aptitude ul {
+    padding-left: 20px;
+}
+
+.left form {
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: small;
+    padding-top: 1px;
+    
+}
+
+.left meter {
+    width: 100%;
+}
+
+.education #date-education {
+    font-weight: bold;
+}
+
+.left h2 {
+    color: #E7A960;
+}
+
+.languages {
+    border: solid 1px white;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 15px;
+    margin-block-end: 15px;
+}
+
+.left meter::-webkit-meter-bar{
+    background-color: white;
+}
+
+.right {
+    width: 82%;
+    background-color: white;
+    padding-left: 35px;
+    padding-top: 17px;
+    color: #3C3C44;
+    padding-right: 20px;
+    
+}
+
+.right .profile{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14;
+    padding-top: 1px;
+    text-align: justify;
+    font-weight: bold;
+}
+
+.right .work-experiences{
+    text-align: justify;
+}
+
+/*Experiencias laborales*/
+.experiencia-1{
+    display: flex;
+    gap: 10px;
+}
+
+.experiencia-2{
+    display: flex;
+    gap: 10px;
+}
+
+.experiencia-3{
+    display: flex;
+    gap: 10px;
+}
+
+.experiencia-4{
+    display: flex;
+    gap: 10px;
+}
+
+.experiences{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 15px;
+    color: #3C3C44;
+}
+
+/*Habilidades*/
+.skills {
+    display: flex;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: small;
+    color: #3C3C44;
+    list-style-position: inside;
+    gap: 10px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.skills meter{
+    width: 100%;
+}
+
+.skills-1 {
+    width: 33.33%;
+}
+
+.skills-2 {
+    width: 33.33%;
+}
+
+.skills-3 {
+    width: 33.33%;
+}
