@@ -239,12 +239,12 @@ ul{
 /**/
 @media only screen and (max-device-width:912px) {
     .image-profile {
-        width: 150px;
+        width: 21%;
         background-color: #3C3C44;
         padding: 15px 10px;
     } 
     .left {
-        width: 150px;
+        width: 35%;
         background-color: #3C3C44;
         padding: 15px 10px;
     } 
