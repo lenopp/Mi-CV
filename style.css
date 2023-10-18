@@ -237,7 +237,7 @@ ul{
 }
 
 /**/
-@media only screen and (min-device-width:375px) {
+@media only screen and (max-device-width:375px) {
     .image-profile {
         width: 40%;
         background-color: #3C3C44;
