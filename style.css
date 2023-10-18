@@ -237,7 +237,7 @@ ul{
 }
 
 /**/
-@media only screen and (min-device-width:390px) {
+@media only screen and (min-device-width:375px) {
     .image-profile {
         width: 40%;
         background-color: #3C3C44;
@@ -245,7 +245,7 @@ ul{
     } 
 
     .left {
-        width: 40%;
+        width: 43%;
         background-color: #3C3C44;
         padding: 15px 10px;
     } 
@@ -255,6 +255,6 @@ ul{
     }
 
     .right{
-        width: 60%;
+        width: 57%;
     }
 }
